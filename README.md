@@ -1,2 +1,2 @@
-# Sol: Simian Opertional Lexicon
-The dataset.
+# Sol: Simian Operational Lexicon 🤖
+The dataset
