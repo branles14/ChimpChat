@@ -1,20 +1,64 @@
+@font-face {
+  font-family: 'SuperMario256';
+  src: url('assets/SuperMario256.ttf') format('truetype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 40px auto;
-    max-width: 800px;
-    padding: 20px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #212121;
+  color: #EEEEEE;
+  font-family: sans-serif, Arial;
+  text-align: center;
+  margin: 0;
 }
 
-img {
-    width: 400px;
+.content-wrapper {
+  flex: 1 0 auto;
+  margin: 10px 40px;
 }
 
-h1 {
-    color: #333;
+.banner {
+  background: -moz-linear-gradient(45deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+  background: -webkit-linear-gradient(45deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+  background: hsla(333, 100%, 53%, 1);
+  background: linear-gradient(45deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FF0F7B", endColorstr="#F89B29", GradientType=1);
+  padding: 60px 0;
 }
 
-p {
-    color: #555;
+.banner h1 {
+  color: #212121;
+  font-family: 'SuperMario256', sans-serif, Arial;
+  font-size: 80px;
+  margin: 0;
+}
+
+.banner p {
+  color: #212121;
+  font-size: 18px;
+  margin: 0;
+}
+
+.welcome {
+  background-color: #424242;
+  margin: 20px 0 20px 0;
+  padding: 10px;
+}
+
+footer {
+  flex-shrink: 0;
+  color: #757575;
+  background-color: #00000000;
+  font-size: 12px;
+}
+
+footer p {
+  margin: 8px;
 }
