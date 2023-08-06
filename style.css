@@ -6,12 +6,15 @@ body {
     padding: 20px;
     text-align: center;
 }
+
 img {
     width: 400px;
 }
+
 h1 {
     color: #333;
 }
+
 p {
     color: #555;
 }
