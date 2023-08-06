@@ -1,26 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChimpChat - AI for the Talking Monkeys</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <img src="https://huggingface.co/datasets/branles14/chimpchat/resolve/main/etc/images/chimpchat_banner.png" alt="ChimpChat Banner">
-    <h1>Welcome to ChimpChat!</h1>
-    <p>"Because apes deserve an AI companion that's as blunt as they are"</p>
-    <hr>
-    <p>Welcome to the early stages of the ChimpChat project. Here, your AI companion is as blunt as it's entertaining! Dive into an evolutionary journey of wit, cheekiness, and Darwinian charm.</p>
-    <h2>ChimpChat Sectors</h2>
-    <ul>
-        <li><strong>Ape World Queries:</strong> Dive deep into inquiries about the real world, aiming to stimulate the intellectual curiosity of primates.</li>
-        <li><strong>Simian Scribes:</strong> Assist in the creation process. Whether it's crafting emails or narratives, ChimpChat seeks to inspire creativity.</li>
-        <li><strong>Primate Parchments:</strong> Generate dialogues based on existing materials, covering a diverse range of topics.</li>
-    </ul>
-    <hr>
-    <footer>
-        <p>ChimpChat - Elevating human-AI interaction, one sassy quip at a time.</p>
-    </footer>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    width: 400px;
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #555;
+}
