@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbranles14%2Fchimpchat%2Fraw%2Fmain%2Fetc%2Fshields%2Fexamples.json" style="margin-right: 10px; margin-left: 10px; margin-top: 0px;">
     <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbranles14%2Fchimpchat%2Fraw%2Fmain%2Fetc%2Fshields%2Flicense.json" style="margin-left: 10px; margin-top: 0px;">
   </div>
-*"Because apes deserve an AI companion that's as blunt as they are"* 🤖🐒
+"Because apes deserve an AI companion that's as blunt as they are" 🤖🐒
 </div>
 
 [View the dataset](https://huggingface.co/datasets/branles14/chimpchat).  
