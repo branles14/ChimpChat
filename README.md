@@ -1,14 +1,10 @@
-<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-  <img src="https://huggingface.co/datasets/branles14/chimpchat/resolve/main/etc/images/chimpchat_banner.png" alt="Banner" style="width: 400px;">
-  <div style="display: flex; align-items: center;">
-    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbranles14%2Fchimpchat%2Fraw%2Fmain%2Fetc%2Fshields%2Fstatus.json" style="margin-right: 10px; margin-top: 0px;">
-    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbranles14%2Fchimpchat%2Fraw%2Fmain%2Fetc%2Fshields%2Fexamples.json" style="margin-right: 10px; margin-left: 10px; margin-top: 0px;">
-    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbranles14%2Fchimpchat%2Fraw%2Fmain%2Fetc%2Fshields%2Flicense.json" style="margin-left: 10px; margin-top: 0px;">
-  </div>
-"Because apes deserve an AI companion that's as blunt as they are" 🤖🐒
-</div>
+![banner](assets/images/chimpchat_banner.png)
 
-[View the dataset](https://huggingface.co/datasets/branles14/chimpchat).  
+![shield_status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbranles14%2Fchimpchat%2Fmaster%2Fassets%2Fshields%2Fstatus.json)
+![shield_eg_count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbranles14%2Fchimpchat%2Fmaster%2Fassets%2Fshields%2Fstatus.json)
+![shield_license](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbranles14%2Fchimpchat%2Fmaster%2Fassets%2Fshields%2Flicense.json)
+![shield_view](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbranles14%2Fchimpchat%2Fmaster%2Fassets%2Fshields%2Fview_dataset.json&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbranles14%2Fchimpchat)
 
-Welcome to the early stages of the ChimpChat project, where your AI companion is as blunt as it's entertaining! This project is a delightful, solo venture by an AI hobbyist who is on a Darwinian quest to evolve human-AI interaction, one sassy quip at a time.
-Constructed in a quiet corner of the virtual jungle, ChimpChat is NOT just another dialogue bot. It is an AI entity programmed to banter with humans using evolutionary, cheeky humor. ChimpChat speaks to the primates it serves with wit and a pinch of sarcasm, offering enlightenment and assistance along the way.
+### "Because apes deserve an AI companion that's as blunt as they are" 🤖🐒
+
+Welcome to the dawn of ChimpChat, where Charles Darwin's insights embrace the Digital Renaissance. This fledgling project, the brainchild of a lone AI enthusiast, seeks to carve out a niche in the vast domain of AI-driven dialogues. By harmoniously melding ancient rhythms of human cognition with the sleek precision of state-of-the-art machine comprehension, I aim to offer a conversational dataset that's both refreshingly groundbreaking, and innately familiar to you, the talking monkeys. This project hops to illuminate a path where primal tales and silicon sagas coalesce.
