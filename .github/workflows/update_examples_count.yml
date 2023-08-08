@@ -1,0 +1,42 @@
+name: Update Examples Count
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Run every hour
+#   - cron: '0 0 * * *' # Run every day
+
+jobs:
+  update-count:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Install Hugging Face datasets library
+      run: pip install datasets
+
+    - name: Get the example count
+      run: |
+        from datasets import load_dataset
+        dataset = load_dataset('branles14/chimpchat')
+        example_count = len(dataset['train'])
+        print(f"Example count: {example_count}")
+        with open("assets/shields/examples.json", "r") as file:
+            data = json.load(file)
+            data["message"] = str(example_count)
+        with open("assets/shields/examples.json", "w") as file:
+            json.dump(data, file)
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'branles14'
+        git config --global user.email 'branles@pm.me'
+        git add assets/shields/examples.json
+        git commit -m "Automated update of examples count"
+        git push
